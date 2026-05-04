@@ -133,26 +133,6 @@ Search **Void Aurora** in the Extensions panel (`Ctrl+Shift+X` / `Cmd+Shift+X`).
 
 ---
 
-## Building & publishing
-
-```bash
-# Install tooling
-npm install
-
-# Package as .vsix
-npm run package
-
-# Publish to marketplace (requires a Personal Access Token)
-npm run publish
-```
-
-To publish, you need:
-1. A [Visual Studio Marketplace publisher account](https://marketplace.visualstudio.com/manage)
-2. `publisher` in `package.json` is already set to `ZATRANO`
-3. A Personal Access Token from [Azure DevOps](https://dev.azure.com)
-
----
-
 ## Credits
 
 Syntax palette inspired by [Material Theme](https://github.com/material-theme/vsc-material-theme) and [Moonlight](https://github.com/atomiks/moonlight-vscode-theme). Canvas depth and UI layer system designed from scratch.
