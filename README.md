@@ -63,7 +63,7 @@ Full semantic and TextMate token coverage for:
 ### From VSIX (recommended for local use)
 
 ```bash
-git clone https://github.com/zatrano/void-aura.git
+git clone https://github.com/zatrano/void-aurora.git
 cd void-aurora
 npm install
 npx vsce package
