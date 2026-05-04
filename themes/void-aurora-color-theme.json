@@ -133,8 +133,8 @@
     "list.filterMatchBackground": "#c792ea20",
     "list.filterMatchBorder": "#c792ea40",
     "list.deemphasizedForeground": "#4a4570",
-    "tree.indentGuidesStroke": "#ffffff10",
-    "tree.inactiveIndentGuidesStroke": "#ffffff08",
+    "tree.indentGuidesStroke": "#7b68d445",
+    "tree.inactiveIndentGuidesStroke": "#7b68d420",
     "tree.tableColumnsBorder": "#ffffff0a",
     "tree.tableOddRowsBackground": "#ffffff03",
 
@@ -256,8 +256,8 @@
     "editor.symbolHighlightBorder": "#ffcb6b30",
 
     "editorWhitespace.foreground": "#ffffff0a",
-    "editorIndentGuide.background1": "#ffffff08",
-    "editorIndentGuide.activeBackground1": "#ffffff18",
+    "editorIndentGuide.background1": "#7b68d428",
+    "editorIndentGuide.activeBackground1": "#7b68d470",
 
     "editorRuler.foreground": "#ffffff08",
     "editor.linkedEditingBackground": "#c792ea15",
