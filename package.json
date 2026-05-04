@@ -1,0 +1,56 @@
+{
+  "name": "void-aurora",
+  "displayName": "Void Aurora",
+  "description": "A deep dark VS Code theme with a violet-black canvas and warm syntax spectrum — from violet keywords to sage strings, peach numbers, and amber types.",
+  "version": "1.0.0",
+  "publisher": "ZATRANO",
+  "author": {
+    "name": "ZATRANO"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/void-aurora"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/void-aurora/issues"
+  },
+  "homepage": "https://github.com/your-username/void-aurora#readme",
+  "keywords": [
+    "theme",
+    "dark",
+    "color-theme",
+    "aurora",
+    "void",
+    "purple",
+    "violet",
+    "syntax"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "galleryBanner": {
+    "color": "#080810",
+    "theme": "dark"
+  },
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Void Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/void-aurora-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.24.0"
+  }
+}
