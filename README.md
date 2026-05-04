@@ -63,7 +63,7 @@ Full semantic and TextMate token coverage for:
 ### From VSIX (recommended for local use)
 
 ```bash
-git clone https://github.com/zatrano/void-aurora.git
+git clone https://github.com/zatrano/void-aura.git
 cd void-aurora
 npm install
 npx vsce package
@@ -148,7 +148,7 @@ npm run publish
 
 To publish, you need:
 1. A [Visual Studio Marketplace publisher account](https://marketplace.visualstudio.com/manage)
-2. Update `publisher` in `package.json` to your publisher ID
+2. `publisher` in `package.json` is already set to `ZATRANO`
 3. A Personal Access Token from [Azure DevOps](https://dev.azure.com)
 
 ---
@@ -161,4 +161,4 @@ Syntax palette inspired by [Material Theme](https://github.com/material-theme/vs
 
 ## License
 
-MIT © Your Name
+MIT © ZATRANO
